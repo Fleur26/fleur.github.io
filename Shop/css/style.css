@@ -1,0 +1,376 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    color: #0F1F1C;
+}
+:root{
+    --container-width: 1140px;
+    --container-widthMin: 600px;
+    --container-padding: 150px;
+    --card: 447px;
+}
+.container{
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+.container--card{
+    max-width: var(--card);
+    margin: 0;
+    padding: 0;
+}
+.container--min{
+    max-width: var(--container-widthMin);
+    
+}
+.none{
+    display: none !important;
+}
+
+/*Header*/
+
+.header{
+    padding-top: 34px ;
+    position: relative;
+    color: #fff;
+    background: url(../photo/Yanki\ \(51\)\ 1.jpg) top left / 34% no-repeat, 
+    url(../photo/Yanki\ \(51\)\ 2.jpg) top center / 34%  no-repeat, url(../photo/Yanki\ \(51\)\ 3.jpg)top right / 34% no-repeat;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+.panel{
+    margin-right: 104px;
+}
+.nav__panel{
+   margin-right: 25px;
+   font-size: 18px;
+   font-weight: 300;
+   text-transform: uppercase;
+}
+.nav__lang{
+ display: flex;
+ padding-left: 15%;
+}
+.lang{
+    text-transform: uppercase;
+    margin-right: 9px;
+}
+.start__infotmation{
+    display: flex;
+    margin-top: 329px;
+    max-width: 100%;
+    justify-content: center;
+}
+.start__newcoll{
+    font-weight: 300;
+    font-size: 46px;
+}
+.start__newcoll:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: #FFFF;
+    margin-left: 35%;
+    margin-top: 20px;
+    
+}
+.start__newsee{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 393px;
+}
+
+.link{
+    padding-right: 7px;
+}
+/*header CATALOG*/
+.header--catalog{
+    background:none;
+    padding-top: 34px ;
+    position: relative;
+    color: black;
+}
+.header__nav a{
+    text-decoration: none;
+    color: #0F1F1C;
+}
+
+.catalog__active{
+    color: #E0BEA2;
+}
+.C__shop{
+    padding-right: 30px;
+    font-size: 25px;
+    color: #E0BEA2;
+}
+.black{
+    color: black;
+}
+/*END HEADER CATALOG*/
+
+/*categories*/
+.categories{
+    padding-top: 100px;
+}
+.header__categories{
+    font-size: 36px;
+}
+
+.categories__clothes{
+    display: flex;
+}
+.clothes__img{
+    margin-top: 50px;
+    margin-right: 15px;
+}
+.clothes{
+    position: relative;
+
+}
+.clothes a{
+    text-decoration: none;
+    color: #fff;
+}
+.clothes_name{
+    max-width: 273px;
+    font-weight: 300;
+    position: absolute;
+    top: 92%;
+    font-size: 20px;
+    background-color: #E0BEA2BF;
+    padding: 9px 40%;  
+}
+
+/*Subscribe*/
+
+.subscribe{
+    margin-top: 100px;
+    margin-left: 34%;
+    
+}
+.subscribe__head{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    word-spacing: 5px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}
+
+
+.form__email{
+    padding: 16px 187px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    border: 0.5px solid black;
+    text-align: center;
+}
+
+.subscribe__button{
+    font-size: 16px;
+    background-color: #E0BEA2;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px 215px ;
+    margin-bottom: 20px;
+    transition: linear .2s;
+}
+
+.subscribe__button:hover{
+    background-color:#bea38c ;
+}
+
+.subscribe__text{
+    color:#252525;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/*footer*/
+.footer__content{
+    display: flex;
+}
+.footer{
+    opacity: 0.7;
+    text-decoration: none;
+    margin-top: 100px;
+    position: relative;
+    color: #0F1F1C;
+}
+.about__company{
+    margin-right: 120px;
+}
+.company{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.end{
+    text-align: center;
+    color: black;
+    opacity: 0.8;
+    margin-top: 50px;
+}
+.white{
+    color: white;
+}
+
+
+/*CATALOG*/
+.main_section{
+    margin-top: 30px ;
+}
+.catalog{
+    margin-top: 38px;  
+}
+.catalog a{
+    text-decoration: none;
+    color: #0F1F1C;
+}
+.header__catalog{
+    display: flex;
+    padding: 0;
+    left: 18%;
+}
+.back__home{
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.header__row{
+    color: #E0BEA2;
+}
+.main__nav{
+    display: flex;
+}
+.catalog__main{
+    margin-top: 40px;
+}
+.variations{
+    margin-left: 70px;
+}
+.head__catalog{
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+/* !!! Родная стрелка убирается с помощью appearance: none; !!! */
+.names__nav{
+    position: absolute;
+    left: 17%;
+}
+.names__clothes{
+    display:block;
+}
+.clothes__links{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.clothes__links a{
+    text-decoration: none;
+    color: #0F1F1C;
+}
+
+
+/*Card of clothes*/
+.products__section{
+    margin-left: 25%;
+    justify-content: space-between;
+}
+.card{
+    display: inline;
+    margin-bottom: 30px;
+}
+.color__card{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0
+}
+.card__color{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+    
+}
+.card__color--white{
+    background-color: white;
+    border: #0F1F1C solid 0.5px;
+}
+.card__color--blue{
+    background-color: #6F83A4;
+}
+.card__color--flesh{
+    background-color: #F1DDAA;
+}
+.text__information{
+    text-align: center;
+    max-width: 310px;
+    font-size: 16px;
+}
+.colum_card{
+    column-gap: 15px;
+    display: flex;
+}
+
+.size__card{
+    justify-content: center;
+    display: flex;
+    column-gap: 5px;
+}
+.price__card{
+    margin: 5px 0;
+    font-weight: 700;
+}
+.name__card{
+    margin-top: 15px;
+}
+.img__card img{
+    object-fit: cover;
+    width: 310px;
+    height: 360px;
+}
+.img__card{
+    position: relative;
+}
+
+/*CARDS*/
+
+/*coat*/
+.card__coat{
+    margin-top: 30px;
+}
+.coat__pictures{
+    display: flex;
+}
+.pictures__grid{
+    display: grid;
+}
+.photo__inGrid{
+    margin-bottom: 10px;
+}
+.pictures__main{
+    margin:0 50px 0 10px ;
+}
